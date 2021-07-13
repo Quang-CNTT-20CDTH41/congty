@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+body {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-1 {
+    background-color: #ffb8b8;
+    padding-left: 100px;
+}
+
+main {
+    width: 1000px;
+    padding-top: 40px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main-left {
+    width: 680px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.left-first {
+    background: #efefef;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.left-first img {
+    position: absolute;
+    margin-top: -21px;
+    padding-left: 10px;
+}
+
+.left-first h2 {
+    color: white;
+    padding-left: 100px;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient( #ff9f58, #ff7f20);
+}
+
+.first-content {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #9e9e9e;
+}
+
+.second-header {
+    width: 680px;
+    height: 100%;
+    background: #ffc4c4;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.second-nav {
+    color: white;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient(#fe7789, #fa595a);
+    padding-top: 10px;
+}
+
+.second-nav img {
+    position: absolute;
+    margin: -20px 10px;
+}
+
+.second-nav span,
+.second-nav h2 {
+    margin-left: 100px;
+}
+
+.second-nav span {
+    background: #65b022;
+    padding: 2px 10px;
+    border-radius: 15px;
+    border-top: 2px solid rgb(126, 126, 126);
+}
+
+.second-nav h3 {
+    position: absolute;
+    margin: -60px 200px;
+    font-size: 50px;
+}
+
+.second-nav h1 {
+    position: absolute;
+    font-size: 50px;
+}
+
+.second-content {
+    margin: 15px;
+    padding-bottom: 10px;
+}
+
+.content-1 {
+    display: flex;
+    font-size: 22px;
+    border-bottom: 1px solid pink;
+    color: #fa595a;
+    line-height: 64px;
+    border-radius: 10px 10px 0 0;
+    background: #fffeca;
+}
+
+.content-1 p {
+    font-weight: 500;
+}
+
+.content-1 img {
+    margin: 0 10px;
+}
+
+.content-2 {
+    background: white;
+    padding: 15px;
+    display: flex;
+}
+
+.span1 {
+    padding-left: 15px;
+}
+
+.span1 button {
+    background: linear-gradient( #5b9dfe, #347fed);
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+form {
+    padding: 15px;
+    background: white;
+    border-radius: 0 0 10px 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.active {
+    color: red;
+    font-weight: 600;
+}
+
+td {
+    border: 1px solid #bebebe;
+    text-align: left;
+    padding: 8px;
+}
+
+td:first-child {
+    background-color: #dddddd;
+    text-align: center;
+}
+
+td:last-child {
+    background-color: white;
+}
+
+.dv {
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px #9e9e9e;
+    border-radius: 10px;
+}
+
+.left-three {
+    background: #efefef;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main-right {
+    margin-left: 30px;
+}
+
+.three-span {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #bebebe;
+    padding: 5px;
+}
+
+.right-first {
+    margin-top: 20px;
+    padding: 5px;
+    background: #f6f6f6;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 7px #dddddd;
+}
+
+.right-first:first-child {
+    margin: 0;
+}
+
+.right-header {
+    width: 250px;
+    height: 43px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    background: linear-gradient( #ff7e93, #fa595a);
+    display: flex;
+}
+
+.right-header img {
+    width: 18%;
+    height: 100%;
+    padding: 7px;
+}
+
+.right-content {
+    color: #fe96a6;
+    border-radius: 0 0 10px 10px;
+}
+
+.right-content ul li {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 12px;
+}
+
+.right-content ul li a {
+    color: #2995e1;
+}
+
+.right-content ul li:last-child {
+    border: none;
+}
+
+footer {
+    display: block;
+    margin-top: 1340px;
+    height: 50px;
+    background: #fe7789;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
